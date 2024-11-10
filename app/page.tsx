@@ -1,4 +1,6 @@
-export default function home() {
+import Image from "next/image";
+
+export default function Home() {
   return (
     <div>
       <div className="flex flex-col md:flex-row items-center justify-center"> 
@@ -9,12 +11,13 @@ export default function home() {
           </p>
         </div>
 
-
         <div className="relative w-[250px] h-[250px] ml-10 mt-4 md:mt-12">
-          <img 
+          <Image 
             src="/yu.png"
             alt="Muhammad Ali Adnan"
-            className="w-full h-full object-cover rounded-full shadow-2xl border-4 border-violet-400"
+            layout="fill"               // Ensures the image fills the container
+            objectFit="cover"           // Maintains aspect ratio and fills the area
+            className="rounded-full shadow-2xl border-4 border-violet-400"
           />
         </div>
       </div>
