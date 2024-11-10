@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <div className="min-h-screen px-6 md:px-12 lg:px-20 py-9 bg-gradient-to-r from-lue-400 to-purple-400">
+    <div className="min-h-screen px-6 md:px-12 lg:px-20 py-9 ">
       <h1 className="text-4xl font-bold text-center py-5 drop-shadow-lg text-violet-600">Skills</h1>
 
       <div className="max-w-4xl mx-auto space-y-10 lg:space-y-12">

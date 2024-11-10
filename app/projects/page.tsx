@@ -1,6 +1,6 @@
 export default function Career() {
   return (
-    <div className="min-h-screen px-6 md:px-12 lg:px-20 py-9 bg-gradient-to-r from-ble-300 to-purple-300">
+    <div className="min-h-screen px-6 md:px-12 lg:px-20 py-9">
       <h1 className="text-4xl font-bold text-center py-5 drop-shadow-lg text-violet-600 mb-8">Projects</h1>
       
       <div className="space-y-8 max-w-4xl mx-auto">
